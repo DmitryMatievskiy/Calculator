@@ -7,6 +7,7 @@ class Calc
     @stack = []
     @result = ""
     @memory = ""
+    @hi = 888
   end
   
   def backspace
@@ -308,6 +309,8 @@ private
     if @stack.count > 0 && 
     !last_op_arithmetic?
 
+    @e=88
+
       # clear it
       @stack.pop
     end
@@ -390,3 +393,5 @@ private
   end
 
 end
+
+##comment line really
